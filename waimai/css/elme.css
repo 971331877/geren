@@ -1,0 +1,336 @@
+/*
+* @Author: pzz
+* @Date:   2017-12-06 18:15:05
+* @Last Modified by:   pzz
+* @Last Modified time: 2017-12-14 16:26:07
+*/
+@import url(base.css);
+.headr{
+	width: 100%;
+	height: 2.41rem;
+	background: #0188ff;
+	overflow: hidden;
+}
+.headr1{
+	width: 6.29rem;
+	height: 0.72rem;
+	background: #0188ff;
+	margin-top: 0.31rem;
+	margin-left: 0.35rem;
+}
+.text{
+	width: 6.59rem;
+	height: 0.72rem;
+	margin-top: 0.09rem;
+	margin-left:0.35rem;
+	border: 0.01rem solid #eef9ff;
+	color: #9f9f9f;
+	text-align: center;
+}
+.text:focus{
+	outline: none;
+}.headr2{
+	width: 6.29rem;
+	height: 0.41rem;
+	background: #0090ff;
+	margin-left: 0.35rem;
+	margin-top: 0.16rem;
+	display: flex;
+	justify-content: space-around;
+}
+.dingwei{
+	width: 4.23rem;
+	height: 0.35rem;
+	background: #0188ff;
+	float: left;
+	margin-top: 0.14rem;
+	}
+.zi{
+	color: #ffffff;
+	font-size: 0.31rem;
+}
+.dingwei1{
+	width: 0.5rem;
+	height: 0.7rem;
+	background: #0188ff;
+	float: right;
+	
+}
+.dingwei2{
+	width: 0.6rem;
+	height: 0.7rem;
+	background: yellowgreen;
+	float: right;
+}
+.tupian{
+	width: 0.6rem;
+	height: 0.7rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 500014 */
+  src: url('http://at.alicdn.com/t/font_500014_r3zmc47ix37kfbt9.eot');
+  src: url('http://at.alicdn.com/t/font_500014_r3zmc47ix37kfbt9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_500014_r3zmc47ix37kfbt9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_500014_r3zmc47ix37kfbt9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_500014_r3zmc47ix37kfbt9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: iconfont;
+	font-size: 0.31rem;
+}
+.zi3{
+	font-size: 0.22rem;
+	color: #ffffff;
+	text-align: center;
+	display: inline-block;
+	margin-left: 0.18rem;
+
+}
+.zi2{
+	font-size: 0.01rem;
+	color: #ffffff;
+}
+.headr2 p{
+	font-size: 0.22rem;
+	color: #ffffff;
+}
+.datupian{
+	width: 100%;
+	height: 2rem;
+	background: yellowgreen;
+}
+.datupian img{
+	width: 100%;
+	height: 2rem;
+}
+.tuijian{
+	width: 100%;
+	height: 4rem;
+	background: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+}
+.meishi{
+	width: 1.8rem;
+	height: 2rem;
+	background: #ffffff;
+}
+.meishi1{
+	width: 1.08rem;
+	height: 1rem;
+	background:  #ffffff;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+}
+.meishi2{
+	font-size: 0.23rem;
+	color: #666666;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.meishi3{
+	width: 1.08rem;
+	height: 1rem;
+}
+.sj{
+	width: 100%;
+	height: 4.48rem;
+	background: #ffffff;
+}
+.sj1{
+	width: 100%;
+	height: 0.6rem;
+	background: #ffffff;
+	color: #333;
+	font-weight: 600;
+	line-height: 0.6rem;
+}
+.sjbt{
+	width: 100%;
+	height: 3.88rem;
+	background:  #ffffff;
+
+}
+.sjbt1{
+	width: 100%;
+	height: 1.8rem;
+	background:  #ffffff;;
+}
+.shbt2{
+	width: 5.35rem;
+	height: 1.11rem;
+	background: #ffffff;
+	margin-left: 1.65rem;
+	border-bottom: 0.01rem solid #eeeeee;
+	overflow: hidden;
+}
+.sjbt11{
+	width: 1.65rem;
+	height: 1.8rem;
+	background:  #ffffff;
+	float: left;
+}
+.shbt111{
+	width: 1.65rem;
+	height: 1.8rem;
+}
+.sjbt12{
+	width: 5.35rem;
+	height: 1.80rem;
+	background: #ffffff;
+	float: left;
+	border-bottom: 0.01rem solid #eeeeee;
+}
+.sjbt3{
+	width: 4rem;
+	height: 0.3rem;
+	font-size: 0.28rem;
+	font-weight: 600;
+	margin-top: 0.42rem;
+	color: #333;
+}
+.sjbt4{
+	width: 1.18rem;
+	height: 0.24rem;
+	background:  #ffffff;
+	float: left;
+	margin-top: 0.2rem;
+}
+.sjbt444{
+	width: 1.18rem;
+	height: 0.35rem;
+}
+.shbt5{
+	font-size: 0.22rem;
+	margin-top: 0.18rem;
+	margin-left: 0.09rem;
+	float: left;
+	color: #7d7d7d
+}
+.sjbt6{
+	width: 5.35rem;
+	height: 0.3rem;
+	background:  #ffffff;
+	margin-top: 0.68rem;
+}
+.sjbt66{
+	width: 1.2rem;
+	height: 0.3rem;
+	background:  #ffffff;
+	float: left;
+	border-right: 0.03rem solid #dddddd;
+	font-size: 0.15rem;
+	color: #7d7d7d
+}
+.sjbt67{
+	width: 1.5rem;
+	height: 0.23rem;
+	float: left;
+	display: block;
+	margin-left: 0.08rem;
+	font-size: 0.15rem;
+	color: #7d7d7d
+}
+.sjbt68{
+	width: 0.8rem;
+	height: 0.23rem;
+	float: right;
+	font-size: 0.15rem;
+	color: #7d7d7d
+
+}
+.shbt69{
+	width: 0.7rem;
+	height: 0.3rem;
+	float: right;
+	font-size: 0.15rem;
+	margin-right: 0.06rem;
+	border-right: 0.03rem solid #dddddd;
+	color: #7d7d7d
+}
+.shbt21{
+	width: 3.9rem;
+	height: 0.39rem;
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+	color: #7d7d7d
+}
+@font-face {
+  font-family: 'iconfont1';  /* project id 500203 */
+  src: url('http://at.alicdn.com/t/font_500203_ubx6s2txczlx47vi.eot');
+  src: url('http://at.alicdn.com/t/font_500203_ubx6s2txczlx47vi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_500203_ubx6s2txczlx47vi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_500203_ubx6s2txczlx47vi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_500203_ubx6s2txczlx47vi.svg#iconfont') format('svg');
+}
+.iconfont1{
+	font-family: iconfont1;
+	font-size: 0.2rem;
+}
+.xxxx{
+
+	height: 0.5rem;
+	background:  #ffffff;
+	float: left;
+	margin-left: 1.65rem;
+	margin-top: 0.3rem;
+	font-size: 0.2rem;
+	color: #7d7d7d
+
+}
+.footer{
+	width: 100%;
+	height: 1.28rem;
+	border-top: 0.02rem solid #d0d0d0;
+	background: skyblue;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+
+}
+.footer ul{
+	width: 100%;
+	height: 1.28rem;
+	background:#f6f6f6;
+}
+.footer li{
+	width: 25%;
+	height: 1.28rem;
+	background: #f6f6f6;
+	float: left;
+}
+.ft1{
+	width: 1rem;
+	height: 0.9rem;
+	margin: 0 auto;
+	background:#f6f6f6;
+	display: block;
+	margin-top: 0.17rem;
+}
+.ft2{
+	display: block;
+	float: left;
+	width: 0.52rem;
+	height: 0.52rem;
+	background: pink;
+	margin-left: 0.24rem;
+}
+.ft3{
+	color: #555555;
+	margin-left: 0.2rem;
+	font-size: 0.25rem;
+	display: block; 
+
+}
+.ft4{
+	margin-left: 0.2rem;
+	color: #555555;
+}
+.ft5{
+	margin-left: 0.25rem;
+}
+.ft6{
+	margin-left: 0.28rem;
+	color: #008dff；
+}

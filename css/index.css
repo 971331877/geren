@@ -1,0 +1,414 @@
+/*
+* @Author: pzz
+* @Date:   2017-12-12 14:28:41
+* @Last Modified by:   pzz
+* @Last Modified time: 2017-12-14 16:05:41
+*/
+@import url(base.css);
+.about{
+	width: 100%;
+	height:auto;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.container{
+	width: 100%;
+	padding:120px 0px;
+}
+.about-head{
+	max-width: 600px;
+	height: 90px;
+	margin: 0 auto;
+}
+.about-head h1{
+	font-size: 36px;
+	color: #333;
+	text-align: center;
+}
+.about-head p{
+	font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+
+.row-img img{
+	width:100%;
+	height: auto;
+	margin-top: 55px;
+}
+.row-text h2{
+	font-size: 36px;
+	color: #333;
+	margin-top: 55px;
+}
+.row-text p{
+	font-size: 14px;
+	color: #333;
+	line-height: 30px;
+	margin-top:15px;
+
+}
+.box{
+	width: 100%;
+	height: auto;
+	background: #F3F3F4;
+}
+.box-top{
+	max-width: 600px;
+	height: 90px;
+	margin: 0 auto;
+}
+.box-top h1{
+	font-size: 36px;
+	color: #333;
+	text-align: center;
+}
+.box-top p{
+	font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+.row ul li{
+	background: #F3F3F4;
+	height: 222px;
+	margin-top: 30px
+
+}
+.box-bt{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	padding: 30px;
+	box-sizing: border-box;
+	transition: all 0.5s;
+}
+.bt1{
+	font-size: 25px;
+	text-align: center;
+	display: block;
+	margin-top: 5px;
+	font-weight: 600;
+	color: #333;
+}
+.bt2{
+	font-size: 25px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.bt3{
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+.box-bt:hover{
+	transform: translateY(-5px);
+	box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.san{
+	background: #fff;
+}
+.san .container .row li{
+	height: 281px;
+	box-sizing: border-box;
+	padding: 0px 7px;
+	overflow: hidden;
+	margin: 7px 0;
+	position: relative;
+	margin-top: 30px
+}
+.san .container .row li img{
+	width: 100%;
+	height: 281px;
+}
+.san1{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+.san3{
+	width: 80px;
+	height: 36px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.xm12{
+     width: 36px;
+     height: 36px;
+     border-radius: 50%;
+     background: #fff;
+     transform: scale(0, 0);
+     display: block;
+     margin-top: 50px;
+     color: #333;
+     text-align: center;
+     line-height: 36px;
+     transition: 0.5s;
+}
+.san2{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.san1 h2{
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	margin-top: 100px;
+	transform: scale(0, 0);
+	transition: 0.5s;
+}
+.san .container .row li:hover .san1{
+    background: rgba(0, 0, 0, 0.7);
+}
+.san .container .row li:hover .xm12{
+	transform: scale(1, 1);
+}
+.san .container .row li:hover .san1 h2{
+	transform: scale(1, 1);
+}
+.san .container .row li:hover .xm12:hover{
+	background: #398DEE;
+	color: #fff;
+}
+.si{
+	background: #FFFFFF;
+}
+.si .container .row li{
+	box-sizing: border-box;
+	padding: 0 12px;
+	margin-top: 30px
+}
+input[class]{
+	height: 44px;
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    outline: none;
+    margin-bottom: 24px;
+    border: 1px solid #E4E7E9;
+}
+textarea{
+	min-width: 100%;
+    border: 1px solid #E4E7E9;
+	box-sizing: border-box;
+    padding: 10px 15px;
+    color: #757575;
+    margin-bottom: 24px;
+    outline: none;
+}
+.lx1{
+	height: 500px;
+}
+.lx2{
+	height: 300px;
+}
+input:last-of-type{
+	background: #333;
+	color: #fff;
+	width: 150px;
+	height: 44px;
+	outline: none;
+  
+}
+.si1{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 35px;
+}
+.si2{
+	width: 60px;
+	height: 60px;
+	background: #f6f6f6;
+	font-size: 24px;
+	text-align: center;
+	color: #55575d;
+	line-height: 60px;
+	margin-right: 10px;
+	float: left;
+}
+.si3{
+	font-size: 16px;
+	color: #959595;
+	float: left;
+	line-height: 30px;
+}
+footer{
+	width: 100%;
+	height: 120px;
+	background: #0d1218;
+	position: relative;
+	box-sizing: border-box;
+	padding: 40px 0;
+}
+footer .foott{
+	display: block;
+	width: 36px;
+	height: 36px;
+	transform: rotate(45deg);
+	background: #0d1218;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top: -18px;
+	text-align: center;
+	line-height: 36px;
+	
+}
+footer .foott i{
+	color: #fff;
+	transform: rotate(-45deg);
+	display: inline-block;
+	font-size: 20px;
+}
+footer .foott:hover{
+	background: #01B6F2;
+}
+footer .foott:hover i{
+	color: #000;
+}
+footer ul{
+	height: auto;
+}
+footer ul li p{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+footer ul li div{
+	height: 36px;
+}
+footer ul li div a{
+	display: block;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: #86898c;
+	float: right;
+	margin-left: 5px;
+	color: #252525;
+	text-align: center;
+	line-height: 36px;
+	font-size: 20px;
+}
+footer ul li div a:hover{
+	background: #01B6F2;
+	color: #fff
+}
+.container1{
+	padding: 0;
+}
+
+
+/* 小于768px  移动端  col-xs- */
+@media screen and (max-width: 768px){
+	.row-text p{
+  	margin-top: 20px;
+  }
+   .san .container .row li img{
+	height: 117px;
+    }
+    .san .container .row li{
+	height: 117px;
+    }
+     footer{
+	height: 160px;
+	
+    }
+
+}
+/* 768px-992px  平板端 col-sm-  750px*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .row-text p{
+  	margin-top: 20px;
+  }
+  .san .container .row li img{
+	max-height: 174px;
+    }
+    .san .container .row li{
+	max-height: 174px;
+    }
+     footer{
+	height: 160px;
+	
+    }
+
+}
+/* 992px-1200px  pc小屏 col-md-  970px*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.san .container .row li img{
+	height: 230px;
+    }
+    .san .container .row li{
+	height: 230px;
+    }
+     footer{
+	height: 120px;
+	
+    }
+
+}
+/* pc大屏大于1200px  col-lg-  1170*/
+@media screen and (min-width: 1200px){
+	 .san .container .row li img{
+	height: 281px;
+    }
+     footer{
+	height: 120px;
+	
+    }
+    
+
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 506475 */
+  src: url('http://at.alicdn.com/t/font_506475_q8u8f7r49lfpqfr.eot');
+  src: url('http://at.alicdn.com/t/font_506475_q8u8f7r49lfpqfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_506475_q8u8f7r49lfpqfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_506475_q8u8f7r49lfpqfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_506475_q8u8f7r49lfpqfr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont";
+}
+@font-face {
+  font-family: 'iconfont1';  /* project id 508146 */
+  src: url('http://at.alicdn.com/t/font_508146_yudpkxcueib2o6r.eot');
+  src: url('http://at.alicdn.com/t/font_508146_yudpkxcueib2o6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_508146_yudpkxcueib2o6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_508146_yudpkxcueib2o6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_508146_yudpkxcueib2o6r.svg#iconfont') format('svg');
+}
+.iconfont1{
+	font-family: "iconfont1";
+}
+@font-face {
+  font-family: 'iconfont2';  /* project id 508166 */
+  src: url('http://at.alicdn.com/t/font_508166_prdxli5d71ll3di.eot');
+  src: url('http://at.alicdn.com/t/font_508166_prdxli5d71ll3di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_508166_prdxli5d71ll3di.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_508166_prdxli5d71ll3di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_508166_prdxli5d71ll3di.svg#iconfont') format('svg');
+}
+.iconfont2{
+	font-family: "iconfont2";
+}
+@font-face {
+  font-family: 'iconfont3';  /* project id 509071 */
+  src: url('http://at.alicdn.com/t/font_509071_xlzzn4paduqh0k9.eot');
+  src: url('http://at.alicdn.com/t/font_509071_xlzzn4paduqh0k9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_509071_xlzzn4paduqh0k9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_509071_xlzzn4paduqh0k9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_509071_xlzzn4paduqh0k9.svg#iconfont') format('svg');
+}
+.iconfont3{
+	font-family: iconfont3;
+}

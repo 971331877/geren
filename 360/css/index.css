@@ -1,0 +1,386 @@
+/*
+* @Author: pzz
+* @Date:   2017-12-05 09:51:44
+* @Last Modified by:   pzz
+* @Last Modified time: 2017-12-05 21:44:18
+*/
+@import url(base.css);
+body{
+	background: #f7f7f7;
+}
+.text{
+	width: 6.03rem;
+	height: 0.68rem;
+	background: #ffffff;
+	border: 0.02rem solid #e8e8e8;
+	margin: 0.14rem auto;
+	display: block;
+	padding-left: 0.14rem;
+	border-radius: 0.09rem;
+
+
+}
+.text:focus{
+	outline: none;
+}
+.banner{
+	width: 100%;
+	height: 3.94rem;
+	background: red;
+	position: relative;
+}
+.box{
+	width: 100%;
+	height: 3.92rem;
+	background: pink;
+	border-top: 0.02rem solid #dddddd;
+	position: relative
+}
+.box li{
+	width: 100%;
+	height: 3.92rem;
+	background: yellowgreen;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.box li img{
+	width: 100%;
+	height: 3.92rem;
+}
+.box2{
+	width: 1.54rem;
+	height: 0.16rem;
+	bottom: 0.23rem;
+	left: 2.44rem;
+	position: absolute;
+}
+.box2 li{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #4f63a7;
+	float: left;
+	margin-right: 0.2rem;
+	border-radius: 50%;
+}
+.box2 li:last-child{
+	margin-right: 0;
+}
+.box2 li:first-child{
+	background: #ffffff;
+}
+.toutiao{
+	width: 100%;
+	height: 0.88rem;
+	background: #ffffff;
+}
+.toutiao1{
+	width: 5.35rem;
+	height: 0.38rem;
+	background: #ffffff;
+	display: block;
+	margin-top: 0.28rem;
+	margin-left: 0.34rem;
+	float: left;
+}
+.toutiao2{
+	width: 1.56rem;
+	height: 0.38rem;
+	background: #ffffff;
+	display: block;
+	float: left;
+}
+.toutiao3{
+	width: 3.67rem;
+	height: 0.38rem;
+	background: #ffffff;
+	display: block;
+	float: right;
+	border-left: 0.02rem solid #e1e1e1;
+	font-size: 0.21rem;
+	color: #666666;
+	line-height: 0.38rem;
+}
+.toutiao2 img{
+	width: 1.54rem;
+	height: 0.38rem;
+	float: left;
+}
+.miaosha{
+	width: 100%;
+	height: 5.06rem;
+	background: #ffffff;
+	border-top: 0.02rem solid #eaeaea;
+}
+.zgmiaosha{
+	width: 100%;
+	height: 0.74rem;
+	background: #ffffff;
+	border-bottom: 0.02rem solid #eaeaea;
+	overflow: hidden;
+}
+.naozhong{
+	width: 0.46rem;
+	height: 0.41rem;
+	display: block;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.24rem;
+}
+.naozhong1{
+	width: 1.5rem;
+	margin-top: 0.25rem;
+	margin-left: 0.3rem;
+	color: #ff6700;
+	font-size: 0.28rem;
+	float: left;
+}
+.naozhong2{
+	float: right;
+	color: #ff6700;
+	font-size: 0.21rem;
+	margin-top: 0.43rem;
+}
+.naozhong3{
+	color: #333;
+	font-size: 0.22rem;
+	margin-top: 0.32rem;
+	margin-left: 0.49rem;
+	float: left;
+}
+.miaosha-bt{
+	width: 1.5rem;
+	height: 3.37rem;
+	background: #ffffff;
+	margin-top: 0.22rem;
+	float: left;
+}
+.bt1{
+	margin-left: 0.24rem;
+}
+.ms1{
+	width: 1.46rem;
+	height: 2.02rem;
+	background: #ffffff;
+	display: block;
+	border-bottom: 0.02rem solid #eaeaea;
+	border-left: 0.02rem solid #eaeaea;
+	border-top: 0.02rem solid #eaeaea;
+	margin-top: 0.44rem;
+	float: left;
+}
+
+.ms2{
+	font-size: 0.18rem;
+	margin-top: 0.18rem;
+	margin-left: 0.14rem;
+}
+.ms3{
+	font-size: 0.18rem;
+	margin-top: 0.13rem;
+	margin-left: 0.14rem;
+}
+.ms5{
+	width: 1.46rem;
+	height: 2.02rem;
+}
+.danping{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.danping li{
+	width: 50%;
+	height: 4.58rem;
+	background: #ffffff;
+	float: left;
+	border-right: 0.02rem solid #f1f1f1;
+	border-bottom: 0.02rem solid #f1f1f1;
+	box-sizing: border-box;
+}
+.danping li:nth-child(2n){
+	margin-right: 0;
+}
+.li1{
+	width: 2.89rem;
+	height: 0.54rem;
+	background: #ffffff;
+	border: 1.02px solid  #9a9696;
+	border-radius: 0.5rem;
+	margin-top: 0.36rem;
+	margin-left: 0.15rem;
+}
+.li2{
+	width: 0.41rem;
+	height: 0.42rem;
+    background:pink;
+    float: left;	
+    margin-top: 0.06rem;
+    margin-left: 0.1rem;
+}
+.li3{
+	width: 1.8rem;
+	height: 0.24rem;
+	color: #222222;
+	font-size: 0.25rem;
+	margin-top: 0.15rem;
+	margin-left: 0.11rem;
+	float: left;
+}
+.li4{
+	width: 2.64rem;
+	height: 2.77rem;
+	background: #ffffff;
+	margin-top: 0.14rem;
+	margin-left: 0.26rem;
+}
+.tu1{
+	width: 2.64rem;
+	height: 2.77rem;
+}
+.li5{
+	font-size: 0.18rem;
+	width: 1.47rem;
+	height: 0.18rem;
+	margin-top: 0.23rem;
+	margin-left: 0.86rem;
+}
+.footer{
+	width: 100%;
+	height: 1.28rem;
+	border-top: 0.02rem solid #d0d0d0;
+	background: skyblue;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+
+}
+.footer ul{
+	width: 100%;
+	height: 1.28rem;
+	background:#ffffff;
+}
+.footer li{
+	width: 25%;
+	height: 1.28rem;
+	background: #ffffff;
+	float: left;
+}
+.ft1{
+	width: 1rem;
+	height: 0.9rem;
+	margin: 0 auto;
+	background: #ffffff;
+	display: block;
+	margin-top: 0.17rem;
+}
+.ft2{
+	display: block;
+	float: left;
+	width: 0.52rem;
+	height: 0.52rem;
+	background: pink;
+	margin-left: 0.24rem;
+}
+.ft3{
+	color: #555555;
+	margin-left: 0.2rem;
+	font-size: 0.25rem;
+	display: block; 
+
+}
+.ft4{
+	margin-left: 0.25rem;
+	color: #3ab760;
+}
+.ft5{
+	margin-left: 0.25rem;
+}
+.ft6{
+	margin-left: 0.35rem;
+}
+.mingxing{
+	width: 100%;
+	height: 0.65rem;
+	background: #f4f4f4;
+	line-height: 0.65rem;
+	text-align: center;
+}
+.tuihuio{
+	width: 100%;
+	height: 2.32rem;
+	background: #ffffff;
+	border-bottom: 0.02rem solid #cccccc;
+	border-top: 0.02rem solid #cccccc;
+}
+.tuihuo1{
+	width: 2.15rem;
+	height: 1.68rem;
+	background: #ffffff;
+	float: left;
+	margin-top: 0.32rem;
+	margin-left: 0.2rem;
+	border-right: 0.02rem solid #aaaaaa;
+}
+.tuihui2{
+	width: 0.8rem;
+	height: 0.8rem;
+	border: 0.5px solid#aaaaaa;
+	border-radius: 5rem;
+	margin: 0 auto;
+	font-size: 0.18rem;
+	color: #333;
+	line-height: 0.8rem;
+	text-align: center;
+}
+.tuihuo3{
+	font-size: 0.2rem;
+	color: #aaaaaa;
+	margin-top: 0.2rem;
+	margin-left: 0.3rem;
+}
+.tuihuo4{
+	font-size: 0.2rem;
+	color: #aaaaaa;
+	margin-top: 0.1rem;
+	margin-left: 0.3rem;
+}
+.tuihuo5{
+	width: 1.65rem;
+	height: 1.68rem;
+	background: #ffffff;
+	float: right;
+	margin-top: 0.32rem;
+}
+.kf{
+	width: 100%;
+	height: 2.55rem;
+	background: #ffffff;
+	margin-bottom: 1.25rem;
+	overflow: hidden;
+}
+.rexian{
+	font-size: 0.22rem;
+	color: #999999;
+	margin-left: 0.33rem;
+	margin-top: 0.35rem;
+}
+.rexian1{
+	font-size: 0.22rem;
+	color: #999999;
+	margin-left: 1.4rem;
+	margin-top: 0.22rem;
+}
+.rexian2{
+	font-size: 0.22rem;
+	color: #999999;
+	margin-left: 1.4rem;
+	margin-top: 0.22rem;
+}
+.rexian3{
+	font-size: 0.22rem;
+	color: #999999;
+	margin-left: 1.4rem;
+	margin-top: 0.22rem;
+}
