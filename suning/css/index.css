@@ -49,6 +49,8 @@
 	z-index: 1;
 
 }
+.aside-logo1{
+	background:#ff6700;
 .aside li:hover{
        background: #ff6700;
        color: #fff;
