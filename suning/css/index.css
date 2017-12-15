@@ -49,7 +49,7 @@
 	z-index: 1;
 
 }
-.aside-logo1{
+.aside li:first-child{
 	background:#ff6700;
 }
 .aside li:hover{
